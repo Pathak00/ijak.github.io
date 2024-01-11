@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>IJAK-THE BATTLEFIELD!</title>
+    <meta name="title" content="IJAK-THE BATTLEFIELD!" />
+    <meta name="description" content="This is an gaming site" />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="favicon"
+      href="./assets/images/ijaklogo_photoshoped.png"
+      type="image/x-icon"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+
+<!-- to load the page without the cache -->
+
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header active" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/ijaklogo_photoshoped.png"
+            width="110"
+            height="53"
+            alt="ijaklogo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#tournament" class="navbar-link" data-nav-link
+                >tournament</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#news" class="navbar-link" data-nav-link>action</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link>contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="btn" data-btn>Book Now</a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <div class="hero has-before" id="home">
+          <div class="container">
+            <p class="section-subtitle">Choose Your Battles</p>
+
+            <h1 class="h1 title hero-title">
+              The largest PaintBall <br />
+              Combat Gaming!
+            </h1>
+
+            <!-- <a href="#contact" class="btn" data-btn->Book</a> -->
+
+            <div class="hero-banner">
+              <img
+                src="./assets/images/ijak_logoo.png"
+                width="550"
+                height="520"
+                alt="hero banner"
+                class="w-100"
+              />
+
+              <img
+                src="./assets/images/hero-banner-bg.png"
+                alt=""
+                class="hero-banner-bg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+        - #UPCOMING
+      -->
+
+        <section
+          class="section upcoming"
+          aria-labelledby="upcoming-label"
+          id="tournament"
+        >
+          <div class="container">
+            <!-- <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+            Battles
+          </p> -->
+
+            <h2 class="h2 section-title" data-reveal="bottom">
+              Dare to Splatter <br />
+              Master the Art of <span class="span">Paintball</span>
+            </h2>
+
+            <p class="section-text" data-reveal="bottom">
+              To Bridge The online game and the real-life game-play through
+              innovation, technology and game design.
+            </p>
+
+            <ol class="upcoming-list">
+              <li class="upcoming-item">
+                <div class="upcoming-card left has-before" data-reveal="left">
+                  <img
+                    src="./assets/images/sideimage5.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="Purple Death Cadets"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">Target Shooting</h3>
+
+                  <!-- <div class="card-meta">Group 04 | Match 06th</div> -->
+                </div>
+
+                <div class="upcoming-time" data-reveal="bottom">
+                  <time class="time">KILL</time>
+
+                  <!-- <time class="date" datetime="2022-05-25">25TH May 2024</time> -->
+
+                  <!-- <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div> -->
+                </div>
+
+                <div class="upcoming-card right has-before" data-reveal="right">
+                  <img
+                    src="./assets/images/sideimage7.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="Trigger Brain Squad"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">Team Battle</h3>
+                  <!-- 
+                <div class="card-meta">Group 04 | Match 06th</div> -->
+                </div>
+              </li>
+
+              <li class="upcoming-item">
+                <div class="upcoming-card left has-before" data-reveal="left">
+                  <img
+                    src="./assets/images/sideimage8.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="The Black Hat Hackers"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">PaintBall</h3>
+
+                  <!-- <div class="card-meta">Group 05 | Match 02nd</div> -->
+                </div>
+
+                <div class="upcoming-time" data-reveal="bottom">
+                  <time class="time" datetime="12:30">OR</time>
+
+                  <!-- <time class="date" datetime="2024-01-10">KILL</time> -->
+
+                  <!-- <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div> -->
+                </div>
+
+                <div class="upcoming-card right has-before" data-reveal="right">
+                  <img
+                    src="./assets/images/sideimage9.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="Your Worst Nightmare"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">Simulator</h3>
+
+                  <!-- <div class="card-meta">Group 05 | Match 02nd</div> -->
+                </div>
+              </li>
+
+              <li class="upcoming-item">
+                <div class="upcoming-card left has-before" data-reveal="left">
+                  <img
+                    src="./assets/images/sideimage4.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="Witches And Quizards"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">Gel Baster</h3>
+
+                  <!-- <div class="card-meta">Group 02 | Match 03rd</div> -->
+                </div>
+
+                <div class="upcoming-time" data-reveal="bottom">
+                  <time class="time" datetime="04:20">DIE</time>
+
+                  <!-- <time class="date" datetime="2024-12-15">DIE</time> -->
+                  <!-- 
+                <div class="social-wrapper">
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitch"></ion-icon>
+                  </a>
+                </div> -->
+                </div>
+
+                <div class="upcoming-card right has-before" data-reveal="right">
+                  <img
+                    src="./assets/images/sideimage1.png"
+                    width="86"
+                    height="81"
+                    loading="lazy"
+                    alt="Resting Bitch Faces"
+                    class="card-banner"
+                  />
+
+                  <h3 class="h3 card-title">Battle park</h3>
+
+                  <!-- <div class="card-meta">Group 02 | Match 03rd</div> -->
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <!-- Section for the contact  -->
+        <section></section>
+
+        <!-- 
+        - #NEWS
+      -->
+        <br />
+        <br />
+
+        <section class="section news" aria-label="our latest news" id="news">
+          <div class="container">
+            <p class="section-subtitle" data-reveal="bottom">
+              🛡️⚔️ Armor Up for Glory! ⚔️🛡️
+            </p>
+
+            <h2 class="h2 section-title" data-reveal="bottom">
+              Packages We <span class="span">Provide</span>
+            </h2>
+
+            <p class="section-text" data-reveal="bottom">
+              Gear up like never before and embrace the hero within. <br />
+              Are you ready for the ultimate battle experience?
+            </p>
+
+            <ul class="news-list">
+              <li data-reveal="bottom">
+                <div class="news-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/package4.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Innovative Business All Over The World."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-tag">Gear UP</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >🔥Starting With Per Person🔥
+                      </a>
+                    </h3>
+
+                    <p class="card-text">
+                      Rs 550 - 30 Bullets <br />
+                      Rs 750 - 50 Bullets <br />
+                      Rs 999 - 90 Bullets <br />
+                    </p>
+
+                    <a href="#" class="link has-before"
+                      >With Helmet, Chest Guard and More..</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="news-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/package2.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="How To Start Initiating An Startup In Few Days."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-tag">Unleash</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >🚀 Reload-Additional Fill 🚀</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Mini: <br />
+                      30 Bullets - Rs 350
+                      <br />
+                      <br />
+                      Extra: <br />
+                      50 Bullets - Rs 500 <br />
+                      100 Bullets - Rs 999
+                    </p>
+
+                    <!-- <a href="#" class="link has-before">Read More</a> -->
+                  </div>
+                </div>
+              </li>
+
+              <li data-reveal="bottom">
+                <div class="news-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/package3.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Financial Experts Support Help You To Find Out."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <a href="#" class="card-tag">Challenge</a>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title"
+                        >⏳Time to Write Your Saga!⏳</a
+                      >
+                    </h3>
+
+                    <p class="card-text">
+                      Time: 1 Hour <br />
+
+                      Number Of people that can play : <br />
+                      <br />
+                      Maximum people: 14 as per ground <br />
+                      Minimum people: 4
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- 
+    - #FOOTER
+  -->
+    <section class="footer" id="contact">
+      <h1 class="logo">Contact Us</h1>
+      <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+          <h3>Book</h3>
+          <form onsubmit="emailSend(); reset(); return false;">
+            <p>
+              <label>Full Name</label>
+              <input id="full_name" type="text" name="fullname" required/>
+            </p>
+            <p>
+              <label>Email Adress</label>
+              <input id="email" type="email" name="email"  required/>
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input  id="phone_number" type="tel" name="phone" required />
+            </p>
+            <p>
+              
+
+
+<!-- section for selecting the packages and the option -->
+
+        <label for="packagess">Choose Package:</label>
+         <select name="package" id="Bundle" required>
+        <optgroup label="Packages">
+           <option value="Shooting-30">Rs 550 - 30 Bullets</option>
+           <option value="Shooting-50">Rs 750 - 50 Bullets</option>
+           <option value="Shooting-90">Rs 999 - 90 Bullets</option>
+            </optgroup>
+             <!-- <option label="Target">
+            <option value="Battle">Battle</option>
+            <option value="Gel Baster">Gel Baster</option> -->
+            </select>
+            </p>
+            <p>
+              <label for="player">Number of Player:</label>
+              <input id="numberof_players" type="text" name="text" required/>
+            </p>
+            <P> <label for="party">Book a date</label>
+          <input id="date_time" type="datetime-local" name="bookdate" value="2024-01-01T08:30" required/>
+          </P>
+           
+
+            <p >
+              <label>Message</label>
+              <textarea id="message" name="message" rows="4" ></textarea>
+            </p>
+            <p class="block">
+              <button id="book_btn">Book Now</button>
+            </p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4>About Us</h4>
+          <br /><br />
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Chavor,Kritipur</li>
+
+            <li>
+              <i class="fas fa-envelope-open-text"></i> ijak0818@gmail.com
+            </li>
+            <li><i class="fas fa-solid fa-phone"></i> +9779803258889</li>
+          </ul>
+          <br />
+          <p>
+            Welcome to the ultimate battlefield of imagination, where heroes are
+            born and legends are forged!" <br />
+            <br />
+            Step into the fray, embrace the chaos, and let the battle of a
+            lifetime unfold!
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.tiktok.com/@ijakabattlefield0818"
+                class="social-link"
+              >
+                <ion-icon name="logo-tiktok"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.instagram.com/ijakabpb/"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <br />
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">&copy; 2023. All Rights Reserved.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+    <div class="cursor" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+--> <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
