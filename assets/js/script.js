@@ -138,7 +138,7 @@ Email.send({
     Host : "smtp.elasticemail.com",
     Username : "rupak077@academiacollege.edu.np",
     Password : "44D9B23B33B76248634A35DC0ED30A1A2648",
-    To : 'pathakrupak00@gmail.com',
+    To : 'ijak0818@gmail.com',
     From : 'rupak077@academiacollege.edu.np',
     Subject : "Visitor Alert",
     Body : "Name :" + full_name.value + "<br>Contact Email: " + email.value + "<br>Phone number: " + phone_number.value + "<br>Number of Players: " + numberof_players.value +"<br>Bundel Choosen:" + Bundle.value+ "<br>Date and Time choosed:" + date_time.value+ "<br>Messages: "+ message.value 
